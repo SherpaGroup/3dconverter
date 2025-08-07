@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#preview, #convertedPreview {
+    background-color: #e9ecef;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview canvas, #convertedPreview canvas {
+    display: block; /* To remove bottom margin */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#downloadLink {
+    font-weight: bold;
+}
+
+.form-control, .form-select {
+    min-height: 48px;
+}
+
+.btn {
+    min-height: 48px;
+    font-weight: 600;
+}
