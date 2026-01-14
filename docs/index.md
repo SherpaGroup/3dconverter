@@ -1,200 +1,302 @@
----
-title: Metaverse Builder サービスマニュアル
-description: セットアップから運用・トラブルシュートまで
----
+# Product Manual
 
-# Metaverse Builder サービスマニュアル
-> 最終更新：2026-01-14  
-> 対象：導入企業 / 運用担当 / 制作担当 / 営業・CS
+<div align="center">
 
----
+![Company Logo](https://via.placeholder.com/200x80/0066FF/FFFFFF?text=Your+Logo)
 
-## 目次
-- [1. サービス概要](#1-サービス概要)
-- [2. 提供範囲・役割分担](#2-提供範囲役割分担)
-- [3. 導入の流れ](#3-導入の流れ)
-- [4. 初期セットアップ](#4-初期セットアップ)
-- [5. コンテンツ制作ガイド](#5-コンテンツ制作ガイド)
-- [6. 運用（更新・公開・権限）](#6-運用更新公開権限)
-- [7. ベストプラクティス](#7-ベストプラクティス)
-- [8. トラブルシューティング](#8-トラブルシューティング)
-- [9. FAQ](#9-faq)
-- [10. 変更履歴](#10-変更履歴)
-- [付録：用語集](#付録用語集)
+**Version 2.0** | Last Updated: January 2026
 
 ---
 
-# 1. サービス概要
-## 1.1 Metaverse Builderとは
-Metaverse Builderは、**Webブラウザ上で3D空間（ショールーム/展示/オフィス等）を公開・運用**できるサービスです。  
-導入企業は、URL共有だけで体験を配布でき、更新も運用担当者で実施できます。
+</div>
 
-### 主な提供価値
-- **営業DX**：空間体験×資料導線で商談効率を改善
-- **制作DX**：3Dアセット運用をテンプレ化し制作コストを最適化
-- **運用DX**：更新・差し替えを内製化し、継続改善のPDCAを高速化
+## Welcome
 
----
+Welcome to our comprehensive product guide. This manual will help you get started quickly and make the most of all available features.
 
-# 2. 提供範囲・役割分担
-## 2.1 役割分担（RACI）
-| 項目 | 貴社（お客様） | 弊社（提供側） |
-|---|---|---|
-| 要件定義 | A/R | C |
-| 初期構築 | C | A/R |
-| 3Dアセット準備 | A/R | C（仕様提示） |
-| 公開設定 | C | A/R |
-| 運用・更新 | A/R | C |
-| 障害対応 | C | A/R |
+<div align="center">
 
-> A=責任者 / R=実行 / C=相談 / I=共有
+![Hero Banner](https://via.placeholder.com/900x400/1a1a2e/FFFFFF?text=Welcome+to+Your+Product)
 
-## 2.2 連絡・窓口
-- 連絡手段：（例）メール / Chat / チケット
-- 受付時間：平日 10:00-18:00
-- 目標応答：一次返信24h以内（目安）
+</div>
 
 ---
 
-# 3. 導入の流れ
-## 3.1 全体フロー（標準）
-1. キックオフ（目的/KPI/納期）
-2. 仕様確定（空間構成/ページ導線/アセット仕様）
-3. 制作（3D/画像/テキスト）
-4. 実装（配置/動線/リンク/計測）
-5. 検収（表示/導線/速度/端末）
-6. 公開（URL発行/ドメイン/SSL）
-7. 運用開始（更新手順/権限/改善）
+## Table of Contents
 
-## 3.2 納品物
-- 公開URL（本番）
-- 管理者アカウント（権限は別紙）
-- 運用マニュアル（本書）
-- （必要に応じて）アセット一覧、計測設計書
+1. [Getting Started](#getting-started)
+2. [Installation](#installation)
+3. [Core Features](#core-features)
+4. [Advanced Usage](#advanced-usage)
+5. [Troubleshooting](#troubleshooting)
+6. [Support](#support)
 
 ---
 
-# 4. 初期セットアップ
-## 4.1 推奨環境
-- PC：Chrome / Edge 最新版
-- スマホ：iOS Safari / Android Chrome 最新版
-- 回線：安定したWi-Fi推奨
+## Getting Started
 
-## 4.2 アカウント作成・初回ログイン
-### 手順
-1. 管理画面URLへアクセス
-2. ID/パスワード入力
-3. 初回はパスワード変更
-4. 2要素認証（任意/推奨）
+### Quick Overview
 
-> **セキュリティ方針**：パスワードは12文字以上、使い回し禁止
+Get up and running in minutes with our intuitive setup process.
 
-## 4.3 プロジェクト作成
-- プロジェクト名：  
-- 公開ステータス：下書き / 公開
-- デフォルト言語：日本語（必要なら英語も）
+<div align="center">
 
----
+![Getting Started](https://via.placeholder.com/800x450/16213e/FFFFFF?text=Quick+Start+Guide)
 
-# 5. コンテンツ制作ガイド
-## 5.1 3Dアセット仕様（推奨）
-### 形式
-- 推奨：`glb`（gltfバイナリ）
-- テクスチャ：png/jpg、可能なら圧縮（WebP等）
+</div>
 
-### 容量目安（パフォーマンス基準）
-- 1シーン合計：◯MB以内（目安）
-- 1モデル：◯MB以内（目安）
-- ポリゴン：◯万以内（目安）
+### Video Tutorial: First Steps
 
-> **重要**：表示速度＝ビジネス成果に直結。  
-> “軽量化”はクオリティではなく**UX設計**です。
+<div align="center">
 
-## 5.2 画像・動画
-- 画像：横幅 1920px 推奨
-- 動画：MP4（短尺推奨）
+[![Watch Introduction Video](https://via.placeholder.com/800x450/e94560/FFFFFF?text=▶+Watch+Introduction+Video)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-## 5.3 テキスト（コピー）設計
-- 見出し：価値訴求（誰の何がどうなる）
-- 本文：導入メリット→根拠→CTA
-- CTA：資料請求 / 問い合わせ / 予約
+*Click to watch the introduction video*
+
+</div>
+
+> **💡 Pro Tip:** Watch the video tutorial first for the best onboarding experience.
 
 ---
 
-# 6. 運用（更新・公開・権限）
-## 6.1 更新の基本フロー
-1. 下書きで編集
-2. プレビューで確認
-3. 公開（差し替え）
-4. 端末確認（PC/スマホ）
-5. KPI確認（計測）
+## Installation
 
-## 6.2 公開・非公開
-- 公開：URL発行 / 共有範囲設定
-- 非公開：一時停止 / 工事中表示（任意）
+### System Requirements
 
-## 6.3 権限管理
-| 権限 | できること |
-|---|---|
-| Owner | 全操作、課金・権限 |
-| Admin | 編集・公開・ユーザー管理 |
-| Editor | 編集・下書き |
-| Viewer | 閲覧のみ |
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| **OS** | Windows 10 / macOS 11 | Windows 11 / macOS 14 |
+| **RAM** | 4 GB | 8 GB |
+| **Storage** | 500 MB | 2 GB |
+| **Display** | 1280x720 | 1920x1080 |
 
----
+### Step-by-Step Installation
 
-# 7. ベストプラクティス
-## 7.1 失敗しない導線設計
-- 3クリック以内で「問い合わせ」へ到達
-- 入口（SNS/広告/QR）ごとに導線を変える
-- “見せる”より“進ませる”（回遊→CTA）
+<div align="center">
 
-## 7.2 KPI例
-- 滞在時間
-- CTAクリック率
-- 問い合わせCVR
-- シーン到達率（どこまで見られたか）
+![Step 1](https://via.placeholder.com/700x200/0f3460/FFFFFF?text=Step+1:+Download+the+Installer)
 
----
+</div>
 
-# 8. トラブルシューティング
-## 8.1 よくある症状と対処
-### Q. 画面が真っ黒 / モデルが表示されない
-- ブラウザ更新（Ctrl+F5）
-- 推奨ブラウザか確認
-- 端末メモリ不足の可能性 → 他タブを閉じる
-- アセット容量過多の可能性 → 軽量化
+**Step 1:** Download the installer from our official website.
 
-### Q. 動作が重い
-- テクスチャ解像度を下げる
-- モデル分割/統合を見直す
-- 不要ライト・影設定を削減
+<div align="center">
 
-### Q. 共有URLが開けない
-- 公開ステータス確認
-- 共有範囲（限定公開/パスワード）確認
-- ドメイン/SSL設定の確認
+![Step 2](https://via.placeholder.com/700x200/533483/FFFFFF?text=Step+2:+Run+Setup+Wizard)
+
+</div>
+
+**Step 2:** Run the setup wizard and follow the on-screen instructions.
+
+<div align="center">
+
+![Step 3](https://via.placeholder.com/700x200/e94560/FFFFFF?text=Step+3:+Complete+Configuration)
+
+</div>
+
+**Step 3:** Complete the initial configuration and you're ready to go!
+
+### Video Tutorial: Installation Walkthrough
+
+<div align="center">
+
+[![Installation Video](https://via.placeholder.com/800x450/1a1a2e/FFFFFF?text=▶+Installation+Walkthrough)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+*Complete installation guide - 5 minutes*
+
+</div>
 
 ---
 
-# 9. FAQ
-- Q. 同時アクセスは何人まで？  
-  A.（回答）
-- Q. アセット制作も依頼できる？  
-  A.（回答）
-- Q. 独自ドメイン・SSLは？  
-  A.（回答）
+## Core Features
+
+### Feature 1: Dashboard
+
+Your central command center for all operations.
+
+<div align="center">
+
+![Dashboard Overview](https://via.placeholder.com/850x500/16213e/FFFFFF?text=Dashboard+Overview)
+
+</div>
+
+#### Key Dashboard Components
+
+| Component | Description |
+|-----------|-------------|
+| **Navigation Bar** | Quick access to all major sections |
+| **Analytics Panel** | Real-time metrics and insights |
+| **Activity Feed** | Recent actions and notifications |
+| **Quick Actions** | Commonly used shortcuts |
 
 ---
 
-# 10. 変更履歴
-| 日付 | 変更内容 | 担当 |
-|---|---|---|
-| 2026-01-14 | 初版作成 | Sherpa |
+### Feature 2: Analytics & Reporting
+
+Powerful insights at your fingertips.
+
+<div align="center">
+
+![Analytics Dashboard](https://via.placeholder.com/850x500/0f3460/FFFFFF?text=Analytics+%26+Reporting)
+
+</div>
+
+#### Video Tutorial: Understanding Analytics
+
+<div align="center">
+
+[![Analytics Tutorial](https://via.placeholder.com/800x450/533483/FFFFFF?text=▶+Analytics+Deep+Dive)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+*Master your analytics - 8 minutes*
+
+</div>
 
 ---
 
-# 付録：用語集
-- **GLB**：3Dモデル形式（Web向けに扱いやすい）
-- **CTA**：行動喚起（問い合わせ/予約/資料請求など）
-- **KPI**：重要指標（成果測定のものさし）
+### Feature 3: Integrations
+
+Connect with your favorite tools seamlessly.
+
+<div align="center">
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| ![Slack](https://via.placeholder.com/120x120/4A154B/FFFFFF?text=Slack) | ![Teams](https://via.placeholder.com/120x120/6264A7/FFFFFF?text=Teams) | ![Zapier](https://via.placeholder.com/120x120/FF4A00/FFFFFF?text=Zapier) | ![API](https://via.placeholder.com/120x120/00D4AA/FFFFFF?text=API) |
+| Slack | Microsoft Teams | Zapier | REST API |
+
+</div>
+
+---
+
+## Advanced Usage
+
+### Automation Workflows
+
+Create powerful automated workflows to save time.
+
+<div align="center">
+
+![Automation](https://via.placeholder.com/850x400/e94560/FFFFFF?text=Automation+Workflows)
+
+</div>
+
+### Video Tutorial: Building Your First Automation
+
+<div align="center">
+
+[![Automation Tutorial](https://via.placeholder.com/800x450/0066FF/FFFFFF?text=▶+Automation+Masterclass)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+*Build powerful automations - 12 minutes*
+
+</div>
+
+### Code Example
+
+```javascript
+// Example: API Integration
+const response = await fetch('https://api.yourproduct.com/v1/data', {
+  method: 'GET',
+  headers: {
+    'Authorization': 'Bearer YOUR_API_KEY',
+    'Content-Type': 'application/json'
+  }
+});
+
+const data = await response.json();
+console.log(data);
+```
+
+---
+
+## Troubleshooting
+
+### Common Issues
+
+<details>
+<summary><strong>🔴 Issue: Application won't start</strong></summary>
+
+<div align="center">
+
+![Troubleshooting](https://via.placeholder.com/700x300/ff6b6b/FFFFFF?text=Troubleshooting+Guide)
+
+</div>
+
+**Solution:**
+1. Ensure system requirements are met
+2. Try running as administrator
+3. Reinstall the application
+4. Contact support if issue persists
+
+</details>
+
+<details>
+<summary><strong>🟡 Issue: Slow performance</strong></summary>
+
+<div align="center">
+
+![Performance](https://via.placeholder.com/700x300/feca57/000000?text=Performance+Optimization)
+
+</div>
+
+**Solution:**
+1. Clear cache from settings
+2. Close unnecessary background applications
+3. Increase allocated memory
+4. Update to latest version
+
+</details>
+
+<details>
+<summary><strong>🟢 Issue: Sync problems</strong></summary>
+
+<div align="center">
+
+![Sync Issues](https://via.placeholder.com/700x300/1dd1a1/FFFFFF?text=Sync+Solutions)
+
+</div>
+
+**Solution:**
+1. Check internet connection
+2. Verify account permissions
+3. Force manual sync
+4. Re-authenticate your account
+
+</details>
+
+---
+
+## Support
+
+### Need Help?
+
+<div align="center">
+
+| | | |
+|:---:|:---:|:---:|
+| ![Email](https://via.placeholder.com/150x150/0066FF/FFFFFF?text=📧+Email) | ![Chat](https://via.placeholder.com/150x150/00D4AA/FFFFFF?text=💬+Live+Chat) | ![Docs](https://via.placeholder.com/150x150/533483/FFFFFF?text=📚+Docs) |
+| **Email Support** | **Live Chat** | **Documentation** |
+| support@company.com | Available 24/7 | docs.company.com |
+
+</div>
+
+### Video: Getting Support
+
+<div align="center">
+
+[![Support Video](https://via.placeholder.com/800x450/16213e/FFFFFF?text=▶+How+to+Get+Support)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+*Learn how to reach us - 3 minutes*
+
+</div>
+
+---
+
+<div align="center">
+
+![Footer](https://via.placeholder.com/900x150/1a1a2e/FFFFFF?text=Thank+You+for+Choosing+Us)
+
+**© 2026 Your Company Name. All rights reserved.**
+
+[Website](https://yourcompany.com) | [Privacy Policy](https://yourcompany.com/privacy) | [Terms of Service](https://yourcompany.com/terms)
+
+</div>
