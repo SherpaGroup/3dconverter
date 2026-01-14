@@ -1,3 +1,42 @@
-title: Metaverse Builder Docs
+title: DevFlow Pro - User Manual
+description: The next-generation developer workflow automation platform. Complete documentation and user guide.
 theme: jekyll-theme-cayman
+baseurl: ""
+url: ""
+
+# Markdown settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: bash
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Social/SEO
+author: DevFlow Team
+twitter:
+  username: devflowpro
+  card: summary_large_image
+
+social:
+  name: DevFlow Pro
+  links:
+    - https://twitter.com/devflowpro
+    - https://github.com/devflow
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - LICENSE
